@@ -1,0 +1,26 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "employeeDirectory-client-side-solution",
+    "id": "1c39afbe-cba7-4413-a643-d3d03beef993",
+    "version": "1.0.0.3",
+    "includeClientSideAssets": true,
+    "features": [{
+      "title": "employeeDirectory-client-side-solution",
+      "description":"employeeDirectory-client-side-solution",
+      "id": "523fe887-ced5-4036-b564-8dad5c6c6e24",     // <-- Update 'id' with a new GUID
+      "version": "1.0.0.3",
+      "assets": {
+        "elementManifests": [
+          "Elements.xml"
+        ],
+        "elementFiles":[
+          "Schema.xml"
+        ]
+      }
+    }]
+  },
+  "paths": {
+    "zippedPackage": "solution/sa-mplespfx.sppkg"
+  }
+}
